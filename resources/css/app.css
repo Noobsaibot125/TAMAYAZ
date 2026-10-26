@@ -1,0 +1,18 @@
+@import 'tailwindcss';
+
+@source '../../vendor/laravel/framework/src/Illuminate/Pagination/resources/views/*.blade.php';
+@source '../../storage/framework/views/*.php';
+@source '../**/*.blade.php';
+@source '../**/*.js';
+
+@theme {
+    --font-sans: 'Plus Jakarta Sans', 'Instrument Sans', ui-sans-serif, system-ui, sans-serif;
+    --color-medical-50: #eff8ff;
+    --color-medical-100: #dbeffe;
+    --color-medical-200: #bfe3fe;
+    --color-medical-500: #0284c7;
+    --color-medical-600: #0369a1;
+    --color-medical-700: #075985;
+    --color-medical-800: #0c4a6e;
+    --color-medical-900: #082f49;
+}
